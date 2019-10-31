@@ -19,7 +19,7 @@ test('returns correct value after 3 seconds', async () => {
     jest.advanceTimersByTime(3000);
     wrapper.update();
   });
-  expect(wrapper.find('div').prop('children')).toEqual(20);
+  expect(wrapper.find('div').prop('children')).toEqual(27);
 });
 
 
